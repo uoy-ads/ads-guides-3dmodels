@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  banner: ads_logo.png
+  title: "3D Models in Archaeology: A Guide to Good Practice"
+  subtitle: Archaeology Data Service, 2016
+  description: 
+  keywords:
+    - archaeology
+    - 3d models
+  authors:
+    - name: Martina Trognitz
+      affiliations: IANUS, Deutsches Archäologisches Institut (DAI)
+      orcid: https://orcid.org/0000-0003-0485-6861
+    - name: Kieron Niven
+      affiliations: Archaeology Data Service
+      orcid: https://orcid.org/0000-0002-0537-9238
+    - name: Valentijn Gilissen
+      affiliations: Data Archiving and Networked Services (DANS)
+      orcid: https://orcid.org/0000-0003-2399-7598
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/q1ss-0331
+  github: uoy-ads/ads-guides-3dmodels
+  toc:
+    - file: index.md
+    - file: content/1-Aims.md
+    - file: content/2-Creating.md
+    - file: content/3-Archiving.md
+    - file: content/4-Bibliography.md
+  exports:
+    - format: pdf
+      article: 
+      output:
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
